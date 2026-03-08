@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Site 01</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial, sans-serif;
+background:#f4f6f8;
+line-height:1.6;
+}
+
+/* Header */
+
+header{
+background:#222;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+/* Navigation */
+
+nav{
+background:#444;
+display:flex;
+justify-content:center;
+gap:20px;
+padding:12px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+text-decoration:underline;
+}
+
+/* Main section */
+
+.container{
+max-width:900px;
+margin:auto;
+padding:30px;
+}
+
+.card{
+background:white;
+padding:25px;
+margin-bottom:20px;
+border-radius:8px;
+box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Button */
+
+button{
+padding:10px 20px;
+background:#007BFF;
+border:none;
+color:white;
+border-radius:6px;
+cursor:pointer;
+margin-top:10px;
+}
+
+button:hover{
+background:#0056b3;
+}
+
+/* Footer */
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+</style>
+</head>
+
+
+<body>
+
+<header>
+<h1>HTML Site 01</h1>
+<p>My First Website Hosted on GitHub</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Projects</a>
+<a href="#">Contact</a>
+</nav>
+
+<div class="container">
+
+<div class="card">
+<h2>Welcome</h2>
+<p>This is my first website project. I am learning GitHub and web development step by step.</p>
+
+<button onclick="showMessage()">Click Me</button>
+</div>
+
+<div class="card">
+<h2>Projects</h2>
+<ul>
+<li>AI Image Generator</li>
+<li>Reader App</li>
+<li>Prompt Hub</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>About</h2>
+<p>This website is a beginner project built with HTML, CSS, and JavaScript.</p>
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 HTML Site 01</p>
+</footer>
+
+<script>
+
+function showMessage(){
+alert("Your website is working perfectly!");
+}
+
+</script>
+
+</body>
+</html>
